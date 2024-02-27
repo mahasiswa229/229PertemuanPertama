@@ -1,5 +1,3 @@
-// PertemuanPertama.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 using namespace std;
@@ -23,8 +21,14 @@ int main()
     nLuas = nAlas * nTinggi / 2;
     cout << "Luasnya = " << nLuas;
 
-    int panjang, masuk, lebar;
+    int panjang, lebar, luas;
     cout << "Masukan Panjang =";
     cin >> panjang;
+    cout << "Masukan Lebar";
+    cin >> lebar;
+    luas = panjang * lebar;
+    cout << "Luas Persegi Panjang adalah =" << luas;
+
+
 
 }
